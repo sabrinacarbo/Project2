@@ -1,4 +1,4 @@
-var db = require("../models");
+var path = require("path");
 
 module.exports = function(app) {
   // Load index page
@@ -8,7 +8,7 @@ module.exports = function(app) {
 
   // Load profile page and pass in a user by id
   // Need to modify this to query to database for the info, and use a variable in the url for the username
-  app.get("/users/hank", function(req, res) {
+  app.get("/profile/hank", function(req, res) {
     res.render("profile-info", {
       name: "Hank",
       img: "https://hankzimmer7.github.io/assets/images/profile_picture.jpg",
