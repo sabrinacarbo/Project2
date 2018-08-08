@@ -15,6 +15,7 @@ INSERT INTO DZs (name, address, city, state, zip, telephone, website) VALUES ("S
 INSERT INTO DZs (name, address, city, state, zip, telephone, website) VALUES ("Skydive City/Z-Hills", "4241 Sky Dive Ln", "Zephyrhills", "FL", 33542, "813-783-9399", "https://www.skydivecity.com/");
 
 
+
 INSERT INTO Boogies (name, DZ, beginDate, endDate) VALUES ("Space Invasion", "Skydive Sebastian", 20181227, 20190101);
 INSERT INTO Boogies (name, DZ, beginDate, endDate) VALUES ("St. Patrick's Day Boogie", "Skydive Fitzgerald", 20190315, 20190318);
 INSERT INTO Boogies (name, DZ, beginDate, endDate) VALUES ("Skydive Atlanta", "Summer Boogie", 20180812, 20180815);
